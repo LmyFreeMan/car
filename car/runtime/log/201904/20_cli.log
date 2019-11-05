@@ -1,0 +1,43 @@
+[ 2019-04-20T17:08:14+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002249s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-04-20T17:08:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'index' [ RunTime:0.000658s ]
+[ 2019-04-20T17:09:03+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002284s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-04-20T17:09:03+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'first' [ RunTime:0.000630s ]
+[ 2019-04-20T17:09:03+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'first' [ RunTime:0.000420s ]
+[ 2019-04-20T17:09:28+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002223s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-04-20T17:09:28+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'frist' [ RunTime:0.000703s ]
+[ 2019-04-20T17:09:28+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'car' AND table_name = 'frist' ORDER BY ORDINAL_POSITION [ RunTime:0.001205s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002211s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'frist' [ RunTime:0.000671s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'car' AND table_name = 'frist' ORDER BY ORDINAL_POSITION [ RunTime:0.001207s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002236s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001094s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'frist' LIMIT 1 [ RunTime:0.000460s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'frist' , '首页管理' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1555751409 , 1555751409) [ RunTime:0.003229s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'frist/index' LIMIT 1 [ RunTime:0.000354s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'frist/add' LIMIT 1 [ RunTime:0.000258s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'frist/edit' LIMIT 1 [ RunTime:0.000277s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'frist/del' LIMIT 1 [ RunTime:0.000249s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'frist/multi' LIMIT 1 [ RunTime:0.000270s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 326 , 'frist/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1555751409 , 1555751409) [ RunTime:0.000298s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 326 , 'frist/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1555751409 , 1555751409) [ RunTime:0.000593s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 326 , 'frist/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1555751409 , 1555751409) [ RunTime:0.000302s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 326 , 'frist/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1555751409 , 1555751409) [ RunTime:0.000333s ]
+[ 2019-04-20T17:10:09+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 326 , 'frist/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1555751409 , 1555751409) [ RunTime:0.000276s ]
+[ 2019-04-20T17:17:07+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002301s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-04-20T17:17:07+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'frist' [ RunTime:0.000658s ]
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002196s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'frist' [ RunTime:0.000745s ]
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'car' AND table_name = 'frist' ORDER BY ORDINAL_POSITION [ RunTime:0.001295s ]
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002343s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001233s ]
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'frist' LIMIT 1 [ RunTime:0.000503s ]
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'frist/index' LIMIT 1 [ RunTime:0.000323s ]
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'frist/add' LIMIT 1 [ RunTime:0.000288s ]
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'frist/edit' LIMIT 1 [ RunTime:0.000290s ]
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'frist/del' LIMIT 1 [ RunTime:0.000257s ]
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'frist/multi' LIMIT 1 [ RunTime:0.000262s ]
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=326,`name`='frist/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1555751831  WHERE  `id` = 327 [ RunTime:0.000337s ]
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=326,`name`='frist/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1555751831  WHERE  `id` = 328 [ RunTime:0.000316s ]
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=326,`name`='frist/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1555751831  WHERE  `id` = 329 [ RunTime:0.000313s ]
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=326,`name`='frist/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1555751831  WHERE  `id` = 330 [ RunTime:0.000279s ]
+[ 2019-04-20T17:17:11+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=326,`name`='frist/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1555751831  WHERE  `id` = 331 [ RunTime:0.000286s ]

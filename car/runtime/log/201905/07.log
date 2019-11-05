@@ -1,0 +1,25 @@
+---------------------------------------------------------------
+[ 2019-05-07T09:19:49+08:00 ] 36.61.58.65 GET www.gxfwz36524.com/car/public/index.php/api/index/changeindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004579s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `frist` [ RunTime:0.001060s ]
+[ sql ] [ SQL ] SELECT * FROM `frist` [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2019-05-07T09:19:49+08:00 ] 36.61.58.65 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000576s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001711s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.001866s ]
+---------------------------------------------------------------
+[ 2019-05-07T09:19:49+08:00 ] 36.61.58.65 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002742s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001852s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC,`allprice` DESC [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2019-05-07T09:19:50+08:00 ] 36.61.58.65 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice?firstprice=10000
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000686s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001150s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000459s ]
+---------------------------------------------------------------
+[ 2019-05-07T09:19:51+08:00 ] 36.61.58.65 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=1308
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000644s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001121s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000539s ]

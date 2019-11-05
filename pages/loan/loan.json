@@ -1,0 +1,11 @@
+{
+"usingComponents": {
+  "van-field": "/dist/field/index",
+  "van-icon": "/dist/icon/index",
+  "van-radio": "/dist/radio/index",
+  "van-radio-group": "/dist/radio-group/index",
+      "van-button": "/dist/button/index",
+      "van-toast": "/dist/toast/index"
+},
+    "navigationBarTitleText": "新车预审"
+}

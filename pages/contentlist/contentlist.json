@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "van-goods-action": "/dist/goods-action/index",
+    "van-goods-action-icon": "/dist/goods-action-icon/index",
+    "van-goods-action-button": "/dist/goods-action-button/index",
+    "van-dialog": "/dist/dialog/index",
+    "van-card": "/dist/card/index",
+    "van-icon": "/dist/icon/index",
+    "van-tag": "/dist/tag/index",
+    "van-notice-bar": "/dist/notice-bar/index"
+  },
+  "navigationBarTitleText": "软文列表"
+}

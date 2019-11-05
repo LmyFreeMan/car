@@ -1,0 +1,19 @@
+[ 2019-02-18T21:39:30+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002803s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-02-18T21:39:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'owneruser' [ RunTime:0.000797s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002264s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'owneruser' [ RunTime:0.000634s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'car' AND table_name = 'owneruser' ORDER BY ORDINAL_POSITION [ RunTime:0.001519s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.019071s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001620s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'owneruser' LIMIT 1 [ RunTime:0.000434s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'owneruser' , '用户信息' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1550497235 , 1550497235) [ RunTime:0.003954s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'owneruser/index' LIMIT 1 [ RunTime:0.000397s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'owneruser/add' LIMIT 1 [ RunTime:0.000298s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'owneruser/edit' LIMIT 1 [ RunTime:0.000281s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'owneruser/del' LIMIT 1 [ RunTime:0.000524s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'owneruser/multi' LIMIT 1 [ RunTime:0.000269s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 223 , 'owneruser/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1550497235 , 1550497235) [ RunTime:0.000377s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 223 , 'owneruser/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1550497235 , 1550497235) [ RunTime:0.000373s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 223 , 'owneruser/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1550497235 , 1550497235) [ RunTime:0.000282s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 223 , 'owneruser/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1550497235 , 1550497235) [ RunTime:0.000325s ]
+[ 2019-02-18T21:40:35+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 223 , 'owneruser/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1550497235 , 1550497235) [ RunTime:0.000295s ]

@@ -1,0 +1,28 @@
+---------------------------------------------------------------
+[ 2019-04-28T17:44:47+08:00 ] 101.227.139.178 GET www.gxfwz36524.com/car/public/index.php/api/index/changeindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003642s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `frist` [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT * FROM `frist` [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2019-04-28T17:44:47+08:00 ] 101.227.139.178 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000615s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004572s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.000402s ]
+---------------------------------------------------------------
+[ 2019-04-28T17:44:47+08:00 ] 101.227.139.178 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000619s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001166s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC,`allprice` DESC [ RunTime:0.000487s ]
+---------------------------------------------------------------
+[ 2019-04-28T17:44:48+08:00 ] 101.227.139.178 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=1308
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000610s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2019-04-28T17:44:48+08:00 ] 101.227.139.178 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice?firstprice=10000
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000621s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2019-04-28T17:45:02+08:00 ] 101.227.139.178 POST www.gxfwz36524.com/car/public/index.php/api/index/getaccesstoken
+[ error ] [8]未定义数组索引: code

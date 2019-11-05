@@ -1,0 +1,52 @@
+.contain
+{
+    width:100%;
+    height:100%;
+}
+
+.title{
+    font-size: 30px;
+    margin-left:30px;
+}
+.banner
+{
+    margin-top: 20px;
+  width: 100%;
+  height: 200px;
+}
+.show
+{
+  width: 1200px;
+  
+}
+.content
+{
+ 
+}
+.bottom
+{
+    display: flex;
+    font-weight: 100;
+    color: darkgrey;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.img
+{
+    width: 100%;
+    text-align: center;
+}
+.auto
+{
+    font-family: "楷体";
+    color: darkgray;
+    font-size: 40rpx;
+}
+.read
+{
+    font-family: "楷体";
+    color: darkgray;
+    font-size: 40rpx;
+    padding-right: 50px;
+}

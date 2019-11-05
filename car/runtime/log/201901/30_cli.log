@@ -1,0 +1,62 @@
+[ 2019-01-30T00:48:06+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002261s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-30T00:48:06+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'owneruser' [ RunTime:0.000636s ]
+[ 2019-01-30T00:48:51+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002309s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-30T00:48:51+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'ownneruser' [ RunTime:0.000580s ]
+[ 2019-01-30T00:48:51+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'ownneruser' [ RunTime:0.000420s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002294s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'owneruser' [ RunTime:0.000696s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'car' AND table_name = 'owneruser' ORDER BY ORDINAL_POSITION [ RunTime:0.001542s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002227s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001541s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'owneruser' LIMIT 1 [ RunTime:0.000509s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'owneruser' , '用户信息' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1548780550 , 1548780550) [ RunTime:0.003989s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'owneruser/index' LIMIT 1 [ RunTime:0.000381s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'owneruser/add' LIMIT 1 [ RunTime:0.000276s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'owneruser/edit' LIMIT 1 [ RunTime:0.000287s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'owneruser/del' LIMIT 1 [ RunTime:0.000244s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'owneruser/multi' LIMIT 1 [ RunTime:0.000257s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 205 , 'owneruser/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1548780550 , 1548780550) [ RunTime:0.000295s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 205 , 'owneruser/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1548780550 , 1548780550) [ RunTime:0.000273s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 205 , 'owneruser/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1548780550 , 1548780550) [ RunTime:0.000262s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 205 , 'owneruser/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1548780550 , 1548780550) [ RunTime:0.000291s ]
+[ 2019-01-30T00:49:10+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 205 , 'owneruser/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1548780550 , 1548780550) [ RunTime:0.000264s ]
+[ 2019-01-30T00:49:57+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002143s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-30T00:49:57+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'loan' [ RunTime:0.000628s ]
+[ 2019-01-30T00:49:57+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'car' AND table_name = 'loan' ORDER BY ORDINAL_POSITION [ RunTime:0.001527s ]
+[ 2019-01-30T00:49:57+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002189s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-30T00:49:57+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001939s ]
+[ 2019-01-30T00:49:57+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'loan' LIMIT 1 [ RunTime:0.000691s ]
+[ 2019-01-30T00:49:57+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'loan' , 'Loan' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1548780597 , 1548780597) [ RunTime:0.007339s ]
+[ 2019-01-30T00:49:58+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'loan/index' LIMIT 1 [ RunTime:0.000386s ]
+[ 2019-01-30T00:49:58+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'loan/add' LIMIT 1 [ RunTime:0.000338s ]
+[ 2019-01-30T00:49:58+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'loan/edit' LIMIT 1 [ RunTime:0.000325s ]
+[ 2019-01-30T00:49:58+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'loan/del' LIMIT 1 [ RunTime:0.000331s ]
+[ 2019-01-30T00:49:58+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'loan/multi' LIMIT 1 [ RunTime:0.000293s ]
+[ 2019-01-30T00:49:58+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 211 , 'loan/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1548780598 , 1548780598) [ RunTime:0.000399s ]
+[ 2019-01-30T00:49:58+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 211 , 'loan/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1548780598 , 1548780598) [ RunTime:0.000367s ]
+[ 2019-01-30T00:49:58+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 211 , 'loan/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1548780598 , 1548780598) [ RunTime:0.000363s ]
+[ 2019-01-30T00:49:58+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 211 , 'loan/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1548780598 , 1548780598) [ RunTime:0.000339s ]
+[ 2019-01-30T00:49:58+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 211 , 'loan/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1548780598 , 1548780598) [ RunTime:0.000361s ]
+[ 2019-01-30T00:51:40+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002592s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-30T00:51:40+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'loan' [ RunTime:0.000634s ]
+[ 2019-01-30T00:52:38+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002207s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-30T00:52:38+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'owneruser' [ RunTime:0.000688s ]
+[ 2019-01-30T00:52:43+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002394s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-30T00:52:43+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'loan' [ RunTime:0.000786s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002197s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'loan' [ RunTime:0.000656s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'car' AND table_name = 'loan' ORDER BY ORDINAL_POSITION [ RunTime:0.001531s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002228s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001783s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'loan' LIMIT 1 [ RunTime:0.000634s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'loan' , '贷款中心' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1548780773 , 1548780773) [ RunTime:0.003425s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'loan/index' LIMIT 1 [ RunTime:0.000409s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'loan/add' LIMIT 1 [ RunTime:0.000286s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'loan/edit' LIMIT 1 [ RunTime:0.000284s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'loan/del' LIMIT 1 [ RunTime:0.000281s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'loan/multi' LIMIT 1 [ RunTime:0.000299s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 217 , 'loan/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1548780773 , 1548780773) [ RunTime:0.000317s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 217 , 'loan/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1548780773 , 1548780773) [ RunTime:0.000309s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 217 , 'loan/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1548780773 , 1548780773) [ RunTime:0.000272s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 217 , 'loan/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1548780773 , 1548780773) [ RunTime:0.000324s ]
+[ 2019-01-30T00:52:53+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 217 , 'loan/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1548780773 , 1548780773) [ RunTime:0.000263s ]

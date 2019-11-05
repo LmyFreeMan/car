@@ -1,0 +1,2871 @@
+---------------------------------------------------------------
+[ 2019-04-15T08:54:51+08:00 ] 101.24.121.120 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=null
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004696s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.008888s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000450s ]
+---------------------------------------------------------------
+[ 2019-04-15T08:54:51+08:00 ] 101.24.121.120 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000567s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.002060s ]
+---------------------------------------------------------------
+[ 2019-04-15T08:54:51+08:00 ] 101.24.121.120 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000523s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.002048s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC,`allprice` DESC [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2019-04-15T08:54:51+08:00 ] 101.24.121.120 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002496s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.002829s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2019-04-15T08:54:51+08:00 ] 101.24.121.120 POST www.gxfwz36524.com/car/public/index.php/api/index/exitopenid
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000584s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT * FROM `owneruser` WHERE  `openid` = 'oisAc5G4hn7tKhWe4-FBcpQ-I2g8' [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:00:15+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002426s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004447s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:00:15+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=null
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009664s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:00:15+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000618s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001032s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC,`allprice` DESC [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:00:15+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001472s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:00:15+08:00 ] 106.9.89.156 POST www.gxfwz36524.com/car/public/index.php/api/index/exitopenid
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000648s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.001075s ]
+[ sql ] [ SQL ] SELECT * FROM `owneruser` WHERE  `openid` = 'oisAc5DebYD-q30s6FiUuhEePx8A' [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:01:17+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002644s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.002874s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.002583s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:01:18+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000802s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.002101s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC,`allprice` DESC [ RunTime:0.002275s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:01:18+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004107s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.002792s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.001549s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:01:18+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=null
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004891s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.003415s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:01:19+08:00 ] 106.9.89.156 POST www.gxfwz36524.com/car/public/index.php/api/index/exitopenid
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000658s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.000975s ]
+[ sql ] [ SQL ] SELECT * FROM `owneruser` WHERE  `openid` = 'oisAc5DebYD-q30s6FiUuhEePx8A' [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:01:27+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000679s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001126s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC,`allprice` DESC [ RunTime:0.000509s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:01:27+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000709s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.000437s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:01:27+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=null
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001171s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.002236s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.001341s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:01:27+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001751s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001884s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.001656s ]
+---------------------------------------------------------------
+[ 2019-04-15T14:01:28+08:00 ] 106.9.89.156 POST www.gxfwz36524.com/car/public/index.php/api/index/exitopenid
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000619s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SELECT * FROM `owneruser` WHERE  `openid` = 'oisAc5DebYD-q30s6FiUuhEePx8A' [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[ 2019-04-15T15:50:34+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001440s ]
+---------------------------------------------------------------
+[ 2019-04-15T15:56:39+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000652s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001352s ]
+[ error ] [8]未定义变量: arrA
+---------------------------------------------------------------
+[ 2019-04-15T15:56:46+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000652s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001327s ]
+[ error ] [8]未定义变量: arrA
+---------------------------------------------------------------
+[ 2019-04-15T15:56:47+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000616s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001267s ]
+[ error ] [8]未定义变量: arrA
+---------------------------------------------------------------
+[ 2019-04-15T15:57:07+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.034807s] [吞吐率：28.73req/s] [内存消耗：3,203.76kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000865s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149815553150272197693e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001357s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000377s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001022s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001262s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T15:57:08+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.034917s] [吞吐率：28.64req/s] [内存消耗：3,203.80kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000958s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149815553150281251231e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001499s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000386s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001286s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T15:57:18+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.032170s] [吞吐率：31.09req/s] [内存消耗：3,203.76kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000942s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149815553150385443657e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001322s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000373s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001248s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T15:57:19+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.035543s] [吞吐率：28.13req/s] [内存消耗：3,203.80kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000967s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149815553150392274785e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001674s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000407s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001296s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T15:58:54+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.036984s] [吞吐率：27.04req/s] [内存消耗：3,203.85kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001074s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149815553151340433452e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001841s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001338s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T15:58:55+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.033728s] [吞吐率：29.65req/s] [内存消耗：3,203.90kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000845s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149815553151350465306e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001272s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000363s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001272s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T15:59:29+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.034611s] [吞吐率：28.89req/s] [内存消耗：3,203.85kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000862s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149815553151688528354e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001463s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001259s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T15:59:30+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.031780s] [吞吐率：31.47req/s] [内存消耗：3,203.90kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000860s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149815553151700312365e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001295s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001266s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:00:37+08:00 ] 58.251.121.186 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.033749s] [吞吐率：29.63req/s] [内存消耗：3,202.86kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000917s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'ali-cdn-real-ip' => '58.251.121.186',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '58.251.121.186',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => 'deba319815553152374153641e',
+  'via' => 'cn74.l1, kunlun6.cn74, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001403s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000384s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001338s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:00:46+08:00 ] 223.104.37.13 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo?tdsourcetag=s_pcqq_aiomsg
+[运行时间：0.036297s] [吞吐率：27.55req/s] [内存消耗：3,204.30kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000960s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '223.104.37.13',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '223.104.37.13',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => 'df6f181615553152460796098e',
+  'via' => 'cn1416.l1, kunlun7.cn1416, l2cm9.l2, cache44.l2cm9',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'tdsourcetag' => 's_pcqq_aiomsg',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001716s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001379s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:00:53+08:00 ] 223.104.37.13 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.049852s] [吞吐率：20.06req/s] [内存消耗：3,203.50kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001239s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '223.104.37.13',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '223.104.37.13',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => 'df6f181615553152532238123e',
+  'via' => 'cn1416.l1, kunlun9.cn1416, l2cm9.l2, cache1.l2cm9',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002351s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000467s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001244s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001772s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:01:03+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.035180s] [吞吐率：28.43req/s] [内存消耗：3,203.85kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000857s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149815553152629805050e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001579s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000945s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001344s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:03:23+08:00 ] 223.104.37.13 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.033473s] [吞吐率：29.87req/s] [内存消耗：3,203.50kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000866s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '223.104.37.13',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '223.104.37.13',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => 'd38ec4a015553154028853306e',
+  'via' => 'cn256.l1, kunlun4.cn256, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001442s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000385s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001251s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:03:53+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.032796s] [吞吐率：30.49req/s] [内存消耗：3,203.90kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000863s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515553154330714654e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001646s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001268s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:04:33+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.036981s] [吞吐率：27.04req/s] [内存消耗：3,203.85kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000960s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515553154735701313e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001732s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001306s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:04:34+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.035505s] [吞吐率：28.17req/s] [内存消耗：3,203.85kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000841s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515553154747703500e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001607s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001291s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:05:32+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.036676s] [吞吐率：27.27req/s] [内存消耗：3,203.90kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001095s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515553155319747472e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001987s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000971s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001280s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:05:33+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.035021s] [吞吐率：28.55req/s] [内存消耗：3,203.90kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001026s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515553155332421686e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001899s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000422s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001310s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:05:48+08:00 ] 223.104.37.13 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.035800s] [吞吐率：27.93req/s] [内存消耗：3,203.88kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000940s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '223.104.37.13',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '223.104.37.13',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => 'ddb5c89c15553155482044639e',
+  'via' => 'cn171.l1, kunlun1.cn171, l2cm9.l2, cache1.l2cm9',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001726s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000408s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001144s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001447s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:05:52+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.034701s] [吞吐率：28.82req/s] [内存消耗：3,203.90kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000890s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515553155521934723e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001644s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000370s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001345s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:06:51+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.035574s] [吞吐率：28.11req/s] [内存消耗：3,203.90kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001004s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515553156114546869e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001682s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000418s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001251s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:07:08+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.035517s] [吞吐率：28.16req/s] [内存消耗：3,203.85kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000992s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515553156286435984e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001683s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001312s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:07:53+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.035054s] [吞吐率：28.53req/s] [内存消耗：3,203.48kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000908s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553156737875874e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001794s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000379s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001252s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:08:20+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.031844s] [吞吐率：31.40req/s] [内存消耗：3,203.90kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000861s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553157007458930e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001291s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000375s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001298s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:08:59+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.031800s] [吞吐率：31.45req/s] [内存消耗：3,203.90kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000862s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553157389337649e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001352s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001266s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:09:00+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.037026s] [吞吐率：27.01req/s] [内存消耗：3,203.85kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000980s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553157404552256e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001823s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000386s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000928s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001269s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:09:17+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.034324s] [吞吐率：29.13req/s] [内存消耗：3,203.30kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001023s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-encoding' => 'gzip, deflate, br',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149815553157576952082e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001316s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000405s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001366s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:09:33+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.036174s] [吞吐率：27.64req/s] [内存消耗：3,204.83kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000945s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553157737375984e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001695s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001308s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:09:48+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.034868s] [吞吐率：28.68req/s] [内存消耗：3,203.90kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000888s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553157882117514e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001409s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001337s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:10:01+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.037840s] [吞吐率：26.43req/s] [内存消耗：3,203.53kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000908s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553158016507677e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001834s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001254s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001656s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:57]
+---------------------------------------------------------------
+[ 2019-04-15T16:10:11+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.035861s] [吞吐率：27.89req/s] [内存消耗：3,137.87kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000894s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553158117212121e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001542s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001259s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:10:45+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.036543s] [吞吐率：27.37req/s] [内存消耗：3,204.55kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000918s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553158451007087e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001719s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001134s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001432s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:10:46+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.035319s] [吞吐率：28.31req/s] [内存消耗：3,204.55kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001101s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553158460408781e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001600s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001046s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001328s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:11:17+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.038704s] [吞吐率：25.84req/s] [内存消耗：3,204.78kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000994s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553158770018905e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001786s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000392s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001060s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001429s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:11:41+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.036123s] [吞吐率：27.68req/s] [内存消耗：3,204.51kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000889s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553159015664561e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001669s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001416s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:12:14+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.036499s] [吞吐率：27.40req/s] [内存消耗：3,204.55kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000940s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553159337746885e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001674s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001357s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:12:15+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.035942s] [吞吐率：27.82req/s] [内存消耗：3,204.55kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000980s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553159356504097e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001708s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001260s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:12:16+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.038928s] [吞吐率：25.69req/s] [内存消耗：3,204.51kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000985s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553159363635550e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001576s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000434s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001389s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:12:23+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.033609s] [吞吐率：29.75req/s] [内存消耗：3,203.19kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000870s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-encoding' => 'gzip, deflate, br',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553159428921466e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001408s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000394s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001329s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:12:24+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.033815s] [吞吐率：29.57req/s] [内存消耗：3,203.19kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000870s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-encoding' => 'gzip, deflate, br',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553159448035926e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001429s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000987s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001319s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:12:56+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.034922s] [吞吐率：28.64req/s] [内存消耗：3,204.55kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000969s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553159766007609e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001512s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000401s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001338s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:13:19+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.023281s] [吞吐率：42.95req/s] [内存消耗：1,965.13kb] [文件加载：60]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000280s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000875s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553159997561039e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001857s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-15T16:14:03+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.033155s] [吞吐率：30.16req/s] [内存消耗：3,137.97kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000846s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553160433177697e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001579s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001251s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:14:14+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.033984s] [吞吐率：29.43req/s] [内存消耗：3,204.51kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000064s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000834s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553160544273943e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001281s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001379s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:14:15+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.035034s] [吞吐率：28.54req/s] [内存消耗：3,204.55kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000868s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553160552945578e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001663s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001289s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:14:16+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.034393s] [吞吐率：29.08req/s] [内存消耗：3,204.51kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000821s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553160561157073e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001482s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001427s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:15:06+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.034931s] [吞吐率：28.63req/s] [内存消耗：3,139.02kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001033s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553161066431400e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001684s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001304s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:15:07+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.032766s] [吞吐率：30.52req/s] [内存消耗：3,138.98kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000936s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553161067011494e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001422s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000397s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001301s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:15:33+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.033356s] [吞吐率：29.98req/s] [内存消耗：3,139.07kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000913s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553161334621824e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001598s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000384s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001257s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:15:45+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.035616s] [吞吐率：28.08req/s] [内存消耗：3,204.55kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000936s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553161453938902e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001327s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001316s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:15:46+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.034839s] [吞吐率：28.70req/s] [内存消耗：3,204.51kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000940s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553161465923230e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001597s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000413s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001276s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:16:03+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.037405s] [吞吐率：26.73req/s] [内存消耗：3,204.55kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001074s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553161633721968e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001685s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000400s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001376s ]
+[ error ] [8]未定义变量: arrA[/var/www/www.gxfwz36524.com/car/application/api/controller/Index.php:58]
+---------------------------------------------------------------
+[ 2019-04-15T16:16:17+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.035544s] [吞吐率：28.13req/s] [内存消耗：3,139.05kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000969s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553161776433662e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001653s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001004s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001415s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:17:03+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.032031s] [吞吐率：31.22req/s] [内存消耗：3,140.17kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000867s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553162230293715e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001409s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000402s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001022s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001381s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:17:31+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.034525s] [吞吐率：28.96req/s] [内存消耗：3,140.28kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000966s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553162516255607e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn1807.l2, cache30.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001662s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001289s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:17:35+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[运行时间：0.032177s] [吞吐率：31.08req/s] [内存消耗：3,140.23kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002376s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'ali-cdn-real-ip' => '106.9.89.156',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.89.156',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15553162549943689e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cn354.l2, cache26.l2cn354',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/car/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001322s ]
+[ info ] [ RUN ] app\api\controller\Index->getcarinfo[ /var/www/www.gxfwz36524.com/car/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001261s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:18:42+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000628s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001109s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001285s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:22:46+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000814s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001044s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001372s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:27:32+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001333s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:27:54+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000633s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001312s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:28:17+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000681s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001334s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:28:45+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000628s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000975s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001399s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:29:10+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000637s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001267s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:29:34+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000620s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000971s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001286s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:30:24+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000721s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001068s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001340s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:30:42+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000625s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001253s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:30:54+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000634s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001278s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:31:14+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000655s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001026s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001317s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:31:34+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001026s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001340s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:32:02+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000659s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001275s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:32:22+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000655s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001025s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001392s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:32:39+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001321s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:33:05+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000634s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001352s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:34:18+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000986s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001803s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:34:48+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001116s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001284s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:35:33+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000799s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001357s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001782s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:36:40+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000629s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001276s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:37:21+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000602s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001282s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:39:03+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000611s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001326s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:41:22+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001342s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:46:55+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001408s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:47:25+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000686s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001303s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:48:17+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000679s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001411s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:48:48+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000953s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001062s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001301s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:50:27+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000655s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001344s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:50:39+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000627s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001258s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:51:04+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000623s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001328s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:51:45+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000621s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001346s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:52:03+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000786s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001245s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001709s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:52:47+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000640s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000996s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001378s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:53:52+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000643s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001126s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001362s ]
+---------------------------------------------------------------
+[ 2019-04-15T16:59:36+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000633s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001310s ]
+---------------------------------------------------------------
+[ 2019-04-15T17:00:15+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000618s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001025s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001348s ]
+---------------------------------------------------------------
+[ 2019-04-15T17:00:36+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000659s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001380s ]
+---------------------------------------------------------------
+[ 2019-04-15T17:01:14+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000648s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001327s ]
+---------------------------------------------------------------
+[ 2019-04-15T17:04:34+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000699s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001379s ]
+---------------------------------------------------------------
+[ 2019-04-15T17:06:52+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001081s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001365s ]
+---------------------------------------------------------------
+[ 2019-04-15T20:30:36+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000691s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001031s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001324s ]
+---------------------------------------------------------------
+[ 2019-04-15T20:50:03+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001014s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001341s ]
+---------------------------------------------------------------
+[ 2019-04-15T21:36:23+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000771s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.001267s ]
+---------------------------------------------------------------
+[ 2019-04-15T22:29:03+08:00 ] 106.9.89.156 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000646s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.000671s ]

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-field": "/dist/field/index",
+        "van-button": "/dist/button/index",
+        "van-toast": "/dist/toast/index"
+  },
+  "navigationBarTitleText": "速享车-登陆中心"
+}

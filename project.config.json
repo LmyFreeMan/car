@@ -1,0 +1,86 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.3",
+	"appid": "wx654d8edf35471dd0",
+	"projectname": "%E8%BD%A6%E8%A1%8C",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 6,
+			"list": [
+				{
+					"id": -1,
+					"name": "dd",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "大",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "大",
+					"pathName": "pages/ loan/loan",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "大",
+					"pathName": "pages/contentlist/contentlist",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "大",
+					"pathName": "pages/ loan/loan",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "大",
+					"pathName": "pages/loan/loan",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "的",
+					"pathName": "pages/ownner/ownner",
+					"scene": null
+				}
+			]
+		}
+	}
+}

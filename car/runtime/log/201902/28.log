@@ -1,0 +1,28 @@
+---------------------------------------------------------------
+[ 2019-02-28T20:20:38+08:00 ] 36.98.149.155 GET www.gxfwz36524.com/car/public/index.php/api/index/getaccesstoken
+[ error ] [8]未定义数组索引: code
+---------------------------------------------------------------
+[ 2019-02-28T23:07:19+08:00 ] 36.98.149.155 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000652s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001402s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.002251s ]
+---------------------------------------------------------------
+[ 2019-02-28T23:07:19+08:00 ] 36.98.149.155 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008242s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.004113s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2019-02-28T23:07:19+08:00 ] 36.98.149.155 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=null
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002902s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2019-02-28T23:07:19+08:00 ] 36.98.149.155 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003772s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.002493s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2019-02-28T23:07:20+08:00 ] 36.98.149.155 POST www.gxfwz36524.com/car/public/index.php/api/index/exitopenid
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000608s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT * FROM `owneruser` WHERE  `openid` = 'oisAc5DebYD-q30s6FiUuhEePx8A' [ RunTime:0.000377s ]

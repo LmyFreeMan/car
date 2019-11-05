@@ -1,0 +1,50 @@
+---------------------------------------------------------------
+[ 2019-01-27T18:16:20+08:00 ] 100.117.135.195 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003421s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.003281s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.002324s ]
+---------------------------------------------------------------
+[ 2019-01-27T18:16:20+08:00 ] 100.117.135.195 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=null
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001410s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.004015s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2019-01-27T18:16:20+08:00 ] 100.117.135.195 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000568s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001331s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2019-01-27T18:16:20+08:00 ] 100.117.135.195 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001366s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC [ RunTime:0.000406s ]
+---------------------------------------------------------------
+[ 2019-01-27T18:16:27+08:00 ] 100.117.135.195 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000656s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC [ RunTime:0.000405s ]
+---------------------------------------------------------------
+[ 2019-01-27T21:19:16+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004730s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001400s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2019-01-27T21:19:16+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003930s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.002123s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000849s ]
+---------------------------------------------------------------
+[ 2019-01-27T21:19:16+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=null
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001526s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.003037s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.001944s ]
+---------------------------------------------------------------
+[ 2019-01-27T21:19:16+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002192s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.003619s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2019-01-27T21:19:24+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC [ RunTime:0.000395s ]

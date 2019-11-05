@@ -1,0 +1,56 @@
+[ 2019-01-19T22:03:43+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002364s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-19T22:03:43+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'test' [ RunTime:0.000691s ]
+[ 2019-01-19T22:04:13+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002269s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-19T22:04:13+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001449s ]
+[ 2019-01-19T22:04:13+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  (  `name` LIKE 'car%' ) [ RunTime:0.000506s ]
+[ 2019-01-19T22:04:15+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `id` IN (169,171,173,172,170,174) [ RunTime:0.000599s ]
+[ 2019-01-19T22:04:15+08:00 ][ sql ] [ SQL ] DELETE FROM `auth_rule`    WHERE  `id` = 169 [ RunTime:0.003251s ]
+[ 2019-01-19T22:04:15+08:00 ][ sql ] [ SQL ] DELETE FROM `auth_rule`    WHERE  `id` = 170 [ RunTime:0.002471s ]
+[ 2019-01-19T22:04:15+08:00 ][ sql ] [ SQL ] DELETE FROM `auth_rule`    WHERE  `id` = 171 [ RunTime:0.002686s ]
+[ 2019-01-19T22:04:15+08:00 ][ sql ] [ SQL ] DELETE FROM `auth_rule`    WHERE  `id` = 172 [ RunTime:0.002187s ]
+[ 2019-01-19T22:04:15+08:00 ][ sql ] [ SQL ] DELETE FROM `auth_rule`    WHERE  `id` = 173 [ RunTime:0.002650s ]
+[ 2019-01-19T22:04:15+08:00 ][ sql ] [ SQL ] DELETE FROM `auth_rule`    WHERE  `id` = 174 [ RunTime:0.017527s ]
+[ 2019-01-19T22:04:31+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002295s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-19T22:04:31+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'car' [ RunTime:0.000636s ]
+[ 2019-01-19T22:04:39+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002393s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-19T22:04:39+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'car' [ RunTime:0.000609s ]
+[ 2019-01-19T22:04:45+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002302s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-19T22:04:45+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001555s ]
+[ 2019-01-19T22:04:45+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  (  `name` LIKE 'car%' ) [ RunTime:0.000492s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002219s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'car' [ RunTime:0.000614s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'car' AND table_name = 'car' ORDER BY ORDINAL_POSITION [ RunTime:0.001546s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002185s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001790s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'car' LIMIT 1 [ RunTime:0.000736s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'car' , '速享车信息' , 'fa fa-car' , '' , 1 , 'normal' , 1547906697 , 1547906697) [ RunTime:0.003537s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'car/index' LIMIT 1 [ RunTime:0.000337s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'car/add' LIMIT 1 [ RunTime:0.000265s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'car/edit' LIMIT 1 [ RunTime:0.000262s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'car/del' LIMIT 1 [ RunTime:0.000254s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'car/multi' LIMIT 1 [ RunTime:0.000246s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 175 , 'car/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1547906697 , 1547906697) [ RunTime:0.000311s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 175 , 'car/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1547906697 , 1547906697) [ RunTime:0.000262s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 175 , 'car/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1547906697 , 1547906697) [ RunTime:0.000268s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 175 , 'car/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1547906697 , 1547906697) [ RunTime:0.000258s ]
+[ 2019-01-19T22:04:57+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 175 , 'car/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1547906697 , 1547906697) [ RunTime:0.000264s ]
+[ 2019-01-19T22:05:02+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002384s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-19T22:05:02+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'car' [ RunTime:0.000644s ]
+[ 2019-01-19T22:05:29+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002348s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-19T22:05:29+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'car' [ RunTime:0.000671s ]
+[ 2019-01-19T22:05:39+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002236s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-19T22:05:39+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'car' [ RunTime:0.000629s ]
+[ 2019-01-19T22:05:39+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'car' AND table_name = 'car' ORDER BY ORDINAL_POSITION [ RunTime:0.001552s ]
+[ 2019-01-19T22:05:40+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002180s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-19T22:05:40+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001655s ]
+[ 2019-01-19T22:05:40+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'car' LIMIT 1 [ RunTime:0.000755s ]
+[ 2019-01-19T22:05:40+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'car/index' LIMIT 1 [ RunTime:0.000572s ]
+[ 2019-01-19T22:05:40+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'car/add' LIMIT 1 [ RunTime:0.000551s ]
+[ 2019-01-19T22:05:40+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'car/edit' LIMIT 1 [ RunTime:0.000610s ]
+[ 2019-01-19T22:05:40+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'car/del' LIMIT 1 [ RunTime:0.000320s ]
+[ 2019-01-19T22:05:40+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'car/multi' LIMIT 1 [ RunTime:0.000304s ]
+[ 2019-01-19T22:05:40+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=175,`name`='car/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1547906740  WHERE  `id` = 176 [ RunTime:0.000421s ]
+[ 2019-01-19T22:05:40+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=175,`name`='car/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1547906740  WHERE  `id` = 177 [ RunTime:0.000342s ]
+[ 2019-01-19T22:05:40+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=175,`name`='car/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1547906740  WHERE  `id` = 178 [ RunTime:0.000309s ]
+[ 2019-01-19T22:05:40+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=175,`name`='car/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1547906740  WHERE  `id` = 179 [ RunTime:0.000309s ]
+[ 2019-01-19T22:05:40+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=175,`name`='car/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1547906740  WHERE  `id` = 180 [ RunTime:0.000284s ]

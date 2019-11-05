@@ -1,0 +1,79 @@
+<view  class="nav" style="display:{{none}}">
+    <view class="nav-son {{hyopen? 'active' : ''}}" bindtap="listqy" data-nav="1">
+      <view class="content">{{dropDownMenuTitle[0]}}</view>
+      <view class="icon"></view>
+    </view>
+    <view class="nav-son borders {{sqopen? 'active' : ''}}" bindtap="list" data-nav="2">
+      <view class="content">{{dropDownMenuTitle[1]}}</view>
+      <view class="icon"></view>
+    </view>
+    <view class="nav-son borders-right {{pxopen? 'active' : ''}}" bindtap="listpx" data-nav="3">
+      <view class="content">{{dropDownMenuTitle[2]}}</view>
+      <view class="icon"></view>
+    </view>
+   
+  </view>
+
+
+
+
+
+<view class="{{sqopen ? 'show' : 'disappear'}}">
+      <view class="box ">
+        <block wx:for="{{dropDownMenuSecondData}}" wx:key="unique">
+          <view class="sortitem {{selectedSq==item.id ? ' active ' : ' '}}" data-model='{{item}}' bindtap='selectsqitem'> {{item.title}}</view>
+        </block>
+      </view>
+  </view>
+
+<view class="{{pxopen ? 'show' : 'disappear'}}" >
+      <view class="box ">
+        <block wx:for="{{dropDownMenuThirdData}}" wx:key="unique">
+          <view class="sortitem {{selectedQt==item.id ? ' active ' : ' '}}" data-model='{{item}}' bindtap='selecqtlitem'> {{item.title}}</view>
+        </block>
+      </view>
+</view>
+
+
+<view wx:for="{{imgUrls}}" id="{{item.id}}" bindtap="detail" class="{{detail ? 'show' : 'disappear'}}">
+
+<van-card
+  
+  price="{{item.allprice}}"
+  desc="{{item.maincontent}}"
+  title="{{item.name}}"
+  thumb="https://www.gxfwz36524.com/car/public{{item.carimages}}"
+/>
+</view>
+
+
+
+
+
+
+  <scroll-view scroll-y style='height: {{windowHeight}}px;display:{{appear}}' scroll-into-view="{{alpha}}">
+  <view class="alphabet">
+       <view style="text-align:center" bindtap="getBrandName" data-brand="品牌不限">品牌不限</view>
+    <view class="alphabet-list">
+      <view wx:for="{{list}}" wx:key="unique" id="{{item.alphabet}}" class="section-item">
+        <view class="section-item-header">
+          {{item.alphabet}}
+        </view>
+        <view bindtap="getBrandName" wx:for="{{item.datas}}" wx:key="unique" wx:for-item="cell" wx:for-index="cellIndex" class="section-item-cells" data-brand="{{cell.name}}">
+          <view class="section-item-cell {{cellIndex != (item.datas.length-1) ? 'border-bottom':''}}">
+            <image class='avater' src='{{cell.avater}}'></image>
+            <text>{{cell.name}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+<view data-id="selector" catchtouchstart="handlerAlphaTap" catchtouchmove="handlerMove" catchtouchend='handlerEnd' style='height:{{windowHeight}}px;display:{{appear}}' class="alphanet-selector {{addBg?'bg':''}}">
+  <view data-ap="{{item.alphabet}}" wx:for="{{list}}" wx:key="unique" class="selector-one">
+    {{item.alphabet}}
+  </view>
+</view>
+<view wx:if="{{addBg}}" class='show-alpha'>
+{{alpha}}
+</view>

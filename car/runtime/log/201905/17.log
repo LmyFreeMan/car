@@ -1,0 +1,20 @@
+---------------------------------------------------------------
+[ 2019-05-17T09:21:57+08:00 ] 101.227.139.172 GET www.gxfwz36524.com/car/public/index.php/api/index/contentbyid?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000629s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `content` [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT * FROM `content` WHERE  `id` = 2 [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[ 2019-05-17T09:21:58+08:00 ] 101.227.139.172 GET www.gxfwz36524.com/car/public/index.php/api/index/contentbyid?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `content` [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT * FROM `content` WHERE  `id` = 2 [ RunTime:0.000457s ]
+---------------------------------------------------------------
+[ 2019-05-17T16:49:04+08:00 ] 101.91.60.112 GET www.gxfwz36524.com/car/public/index.php/api/index/contentbyid?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `content` [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SELECT * FROM `content` WHERE  `id` = 2 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2019-05-17T16:49:04+08:00 ] 101.91.60.112 GET www.gxfwz36524.com/car/public/index.php/api/index/contentbyid?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000623s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `content` [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT * FROM `content` WHERE  `id` = 2 [ RunTime:0.000412s ]

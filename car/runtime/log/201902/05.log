@@ -1,0 +1,44 @@
+---------------------------------------------------------------
+[ 2019-02-05T08:11:41+08:00 ] 1.196.188.175 POST www.gxfwz36524.com/car/public/admin.php/index/login?url=%2Fcar%2Fpublic%2Fadmin.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001613s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `logintime`=1549325501,`token`='bcb00769-154e-40e4-86e2-e08c8319c811',`updatetime`=1549325501  WHERE  `id` = 1 [ RunTime:0.004098s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.001368s ]
+[ sql ] [ SQL ] INSERT INTO `admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/car\\/public\\/admin.php\",\"__token__\":\"f9f13d2158434b18427d86d01b1648ed\",\"username\":\"admin\",\"captcha\":\"BDMY\"}' , '/car/public/admin.php/index/login?url=%2Fcar%2Fpublic%2Fadmin.php' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '1.196.188.175' , 1549325501) [ RunTime:0.014776s ]
+---------------------------------------------------------------
+[ 2019-02-05T08:11:41+08:00 ] 1.196.188.175 GET www.gxfwz36524.com/car/public/admin.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000583s ]
+---------------------------------------------------------------
+[ 2019-02-05T08:11:42+08:00 ] 1.196.188.175 GET www.gxfwz36524.com/car/public/admin.php/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000703s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.001474s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001356s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT `id` FROM `admin` [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group` [ RunTime:0.001214s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `status` = 'normal' [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2019-02-05T08:11:43+08:00 ] 1.196.188.175 GET www.gxfwz36524.com/car/public/admin.php/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1549325501668
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001328s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT `id` FROM `admin` [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group` [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `status` = 'normal' [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000324s ]

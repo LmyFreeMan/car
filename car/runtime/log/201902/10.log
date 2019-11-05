@@ -1,0 +1,25 @@
+---------------------------------------------------------------
+[ 2019-02-10T04:41:18+08:00 ] 100.112.143.171 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=null
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002120s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.004080s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.001104s ]
+---------------------------------------------------------------
+[ 2019-02-10T04:41:18+08:00 ] 100.112.143.171 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002041s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.003563s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.002472s ]
+---------------------------------------------------------------
+[ 2019-02-10T04:41:18+08:00 ] 100.112.143.171 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004180s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.001232s ]
+---------------------------------------------------------------
+[ 2019-02-10T04:41:18+08:00 ] 100.112.143.171 GET www.gxfwz36524.com/car/public/index.php/api/index/adduser?openid=&city=%E8%B6%8A%E7%A7%80%E5%8C%BA%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%94%BF%E5%BA%9C(%E5%BA%9C%E5%89%8D%E8%B7%AF)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000674s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.003805s ]
+[ sql ] [ SQL ] INSERT INTO `owneruser` (`openid` , `city`) VALUES ('' , '越秀区广州市政府(府前路)') [ RunTime:0.006480s ]
+---------------------------------------------------------------
+[ 2019-02-10T04:41:18+08:00 ] 100.112.143.171 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000721s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001962s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC [ RunTime:0.000415s ]

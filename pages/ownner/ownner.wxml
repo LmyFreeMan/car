@@ -1,0 +1,89 @@
+<!--商品幻灯片-->
+<swiper style="height:300px"
+ 
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}"
+>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="https://www.gxfwz36524.com/car/public{{item.carimages}}" class="slide-image" width="355" height="150" ></image>
+    </swiper-item>
+  </block>
+</swiper>
+<!--商品幻灯片 end-->
+<view class="h">
+
+<view class="info-price clear">
+  <view class='price'>￥{{imgUrls[0].allprice}} </view>
+  <view class='fenxiang'>
+      <button class='fxbtn' open-type="share">
+        <view style='height:20px;margin-top:8px;'><image src='/img/fenxiang.png' mode="aspectFill" ></image></view>
+        
+      </button>
+  </view>
+</view>
+<view class="info-title">
+    <text>{{imgUrls[0].name}}</text>
+</view>
+ 
+<view style="border-top:1px solid #F6F6F6;background: #fff; padding:5px 15px;">
+    <view class="clearfix flex grey gridXt">
+   
+      <text class="sub">品牌：{{imgUrls[0].type}}</text>
+      <text class="sub">销量：{{imgUrls[0].number}}</text>
+    </view>
+</view>
+
+<!--商品详情-->
+<view class='details_box'>
+  <view style="height:40px;line-height: 40px;border-bottom:1px solid #f5f5f5;">
+     <view>商品详情</view>
+  </view>
+  <view style='padding:10px 0px;'>
+      <view class="wxParse">
+         {{imgUrls[0].maincontent}}
+      </view>
+    </view>
+</view>
+
+<view>
+<view class="list">
+<view style="margin-left:10px"><text>首付:{{imgUrls[0].firstprice}}</text></view>
+<view style="margin-left:10px"><text>期数:12</text></view>
+<view style="margin-left:10px"><text>月供:{{month1}}</text></view>
+</view>
+
+<view class="list" style="margin-top:15px;background-color: #df9464;">
+<view style="margin-left:10px"><text>首付:{{imgUrls[0].firstprice}}</text></view>
+<view style="margin-left:10px"><text>期数:24</text></view>
+<view style="margin-left:10px"><text>月供:{{month2}}</text></view>
+</view>
+
+<view class="list" style="margin-top:15px;background-color: #fcaf17;">
+<view style="margin-left:10px"><text>首付:{{imgUrls[0].firstprice}}</text></view>
+<view style="margin-left:10px"><text>期数:36</text></view>
+<view style="margin-left:10px"><text>月供:{{month3}}</text></view>
+</view>
+</view>
+
+
+
+
+
+
+
+</view>
+ 
+<!--底部浮动 start-->
+<van-dialog id="van-dialog" />
+<van-goods-action>
+ 
+
+
+  <van-goods-action-button
+    text="立即预定"
+    bind:click="onClickButton"
+  />
+</van-goods-action>
+

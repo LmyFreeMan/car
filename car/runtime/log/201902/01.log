@@ -1,0 +1,110 @@
+---------------------------------------------------------------
+[ 2019-02-01T14:25:59+08:00 ] 9.19.8.126 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=null
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000615s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2019-02-01T14:25:59+08:00 ] 9.19.8.126 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002662s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001364s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2019-02-01T14:25:59+08:00 ] 9.19.8.126 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001376s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.005078s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000405s ]
+---------------------------------------------------------------
+[ 2019-02-01T14:25:59+08:00 ] 9.19.8.126 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004247s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.003158s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2019-02-01T14:25:59+08:00 ] 9.19.8.126 GET www.gxfwz36524.com/car/public/index.php/api/index/adduser?openid=&city=%E8%B6%8A%E7%A7%80%E5%8C%BA%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%94%BF%E5%BA%9C(%E5%BA%9C%E5%89%8D%E8%B7%AF)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000586s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.001307s ]
+[ sql ] [ SQL ] INSERT INTO `owneruser` (`openid` , `city`) VALUES ('' , '越秀区广州市政府(府前路)') [ RunTime:0.003598s ]
+---------------------------------------------------------------
+[ 2019-02-01T14:26:09+08:00 ] 9.19.8.126 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000620s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001608s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC [ RunTime:0.000471s ]
+---------------------------------------------------------------
+[ 2019-02-01T14:26:14+08:00 ] 9.19.8.126 GET www.gxfwz36524.com/car/public/index.php/api/index/contentlist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000625s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `content` [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT * FROM `content` [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2019-02-01T14:26:18+08:00 ] 9.19.8.126 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=null
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000622s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001404s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000453s ]
+---------------------------------------------------------------
+[ 2019-02-01T14:26:18+08:00 ] 9.19.8.126 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000619s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.000402s ]
+---------------------------------------------------------------
+[ 2019-02-01T14:26:18+08:00 ] 9.19.8.126 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000443s ]
+---------------------------------------------------------------
+[ 2019-02-01T14:26:19+08:00 ] 9.19.8.126 GET www.gxfwz36524.com/car/public/index.php/api/index/adduser?openid=oisAc5GjFS3fdgR_MZio_4e_bYOg&city=%E8%B6%8A%E7%A7%80%E5%8C%BA%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%94%BF%E5%BA%9C(%E5%BA%9C%E5%89%8D%E8%B7%AF)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000601s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.001343s ]
+[ sql ] [ SQL ] INSERT INTO `owneruser` (`openid` , `city`) VALUES ('oisAc5GjFS3fdgR_MZio_4e_bYOg' , '越秀区广州市政府(府前路)') [ RunTime:0.005946s ]
+---------------------------------------------------------------
+[ 2019-02-01T14:26:19+08:00 ] 9.19.8.126 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2019-02-01T21:30:42+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC [ RunTime:0.000426s ]
+---------------------------------------------------------------
+[ 2019-02-01T21:30:42+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000623s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.012190s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2019-02-01T21:30:42+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=null
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000501s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001613s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.007117s ]
+---------------------------------------------------------------
+[ 2019-02-01T21:30:42+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000665s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.012830s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2019-02-01T21:30:42+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/adduser?openid=&city=%E8%B6%8A%E7%A7%80%E5%8C%BA%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%94%BF%E5%BA%9C(%E5%BA%9C%E5%89%8D%E8%B7%AF)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000604s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.001625s ]
+[ sql ] [ SQL ] INSERT INTO `owneruser` (`openid` , `city`) VALUES ('' , '越秀区广州市政府(府前路)') [ RunTime:0.002720s ]
+---------------------------------------------------------------
+[ 2019-02-01T21:30:50+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=null
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.004983s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[ 2019-02-01T21:30:50+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000704s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2019-02-01T21:30:50+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003355s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001462s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2019-02-01T21:30:50+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000706s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.002301s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2019-02-01T21:30:50+08:00 ] 10.62.215.218 GET www.gxfwz36524.com/car/public/index.php/api/index/adduser?openid=oisAc5P-sX1Y4VbkVjKzGGEME-oM&city=%E8%B6%8A%E7%A7%80%E5%8C%BA%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%94%BF%E5%BA%9C(%E5%BA%9C%E5%89%8D%E8%B7%AF)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000636s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.001463s ]
+[ sql ] [ SQL ] INSERT INTO `owneruser` (`openid` , `city`) VALUES ('oisAc5P-sX1Y4VbkVjKzGGEME-oM' , '越秀区广州市政府(府前路)') [ RunTime:0.069397s ]

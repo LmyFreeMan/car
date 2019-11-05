@@ -1,0 +1,13 @@
+[ 2019-01-20T14:03:38+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002244s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-20T14:03:38+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001524s ]
+[ 2019-01-20T14:03:38+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  (  `name` LIKE 'config%' ) [ RunTime:0.000654s ]
+[ 2019-01-20T14:04:29+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002317s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ 2019-01-20T14:04:29+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001463s ]
+[ 2019-01-20T14:04:29+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  (  `name` LIKE 'category%' ) [ RunTime:0.000534s ]
+[ 2019-01-20T14:04:33+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `id` IN (3,36,38,37,35,39) [ RunTime:0.000683s ]
+[ 2019-01-20T14:04:33+08:00 ][ sql ] [ SQL ] DELETE FROM `auth_rule`    WHERE  `id` = 3 [ RunTime:0.003330s ]
+[ 2019-01-20T14:04:33+08:00 ][ sql ] [ SQL ] DELETE FROM `auth_rule`    WHERE  `id` = 35 [ RunTime:0.002335s ]
+[ 2019-01-20T14:04:33+08:00 ][ sql ] [ SQL ] DELETE FROM `auth_rule`    WHERE  `id` = 36 [ RunTime:0.002660s ]
+[ 2019-01-20T14:04:33+08:00 ][ sql ] [ SQL ] DELETE FROM `auth_rule`    WHERE  `id` = 37 [ RunTime:0.002212s ]
+[ 2019-01-20T14:04:33+08:00 ][ sql ] [ SQL ] DELETE FROM `auth_rule`    WHERE  `id` = 38 [ RunTime:0.003217s ]
+[ 2019-01-20T14:04:33+08:00 ][ sql ] [ SQL ] DELETE FROM `auth_rule`    WHERE  `id` = 39 [ RunTime:0.005645s ]

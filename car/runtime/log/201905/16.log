@@ -1,0 +1,5 @@
+---------------------------------------------------------------
+[ 2019-05-16T13:22:50+08:00 ] 112.96.39.178 GET www.gxfwz36524.com/car/public/index.php/api/index/contentbyid?id=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `content` [ RunTime:0.001025s ]
+[ sql ] [ SQL ] SELECT * FROM `content` WHERE  `id` = 2 [ RunTime:0.000508s ]

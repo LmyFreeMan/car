@@ -1,0 +1,82 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    
+    "pages/test/test",
+
+    
+      
+    "pages/loannew/loannew",
+      
+        "pages/contentlist/contentlist",
+    "pages/content/content",
+    
+ 
+    "pages/loan/loan",
+
+    
+    "pages/login/login",
+    "pages/ownner/ownner"
+   
+ 
+   
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF976C",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+    "desc": " "
+    }
+    },
+
+    "usingComponents": {
+      "van-loading": "/dist/loading/index",
+      "van-nav-bar": "/dist/nav-bar/index",
+       "van-icon": "/dist/icon/index",
+        "van-search": "/dist/search/index",
+        "van-picker": "/dist/picker/index",
+          "van-area": "/dist/area/index",
+          "van-dialog": "/dist/dialog/index",
+          "van-popup": "/dist/popup/index",
+          "van-button": "/dist/button/index",
+          "van-field": "/dist/field/index",
+          "van-transition": "/dist/transition/index",
+          "van-notify": "/dist/notify/index",
+          "van-toast": "/dist/toast/index",
+          "van-notice-bar": "/dist/notice-bar/index"
+          
+    },
+
+  "tabBar": {
+    "selectedColor": "#DC143C",
+    "backgroundColor":"#FFEBCD",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index.png"
+      },
+      {
+        "pagePath": "pages/contentlist/contentlist",
+        "text": "课下门户",
+        "iconPath": "images/content.png",
+        "selectedIconPath": "images/content.png",
+        "selectedColor": "#DC143C"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "车型大全",
+        "iconPath": "images/car.png",
+        "selectedIconPath": "images/car.png",
+        "selectedColor": "#DC143C"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+/* pages/login/login.wxss */
+.login
+{
+  margin-top:40%;
+
+}

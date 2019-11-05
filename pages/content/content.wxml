@@ -1,0 +1,9 @@
+<view class="contain" >
+<view class="title"><text>{{item[0].title}}</text></view>
+<view style="margin-top:10px;"><image class="img" src='https://www.gxfwz36524.com/car/public/{{item[0].contentimages}}' /> </view> 
+<view><text style="font-size:15px;">{{item[0].content}}</text></view>
+<view><text>(编辑:{{item[0].provicer}})</text></view>
+<view style="text-align:center"><text style="color:red">更多内容请关注:速享车公共号</text></view>
+<view style='margin-top:20px'><image style="width:100%" src="https://www.gxfwz36524.com/car/public/qrcode.png" /></view>
+</view>
+  

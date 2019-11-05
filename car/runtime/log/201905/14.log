@@ -1,0 +1,5 @@
+---------------------------------------------------------------
+[ 2019-05-14T18:02:19+08:00 ] 112.224.17.174 GET www.gxfwz36524.com/car/public/index.php/api/index/byid?id=20
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001163s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  `id` = 20 [ RunTime:0.000399s ]

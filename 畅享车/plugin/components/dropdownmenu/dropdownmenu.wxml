@@ -1,0 +1,47 @@
+<view  class="nav {{sqopen ? 'disappear' : 'show'}}">
+    <view class="nav-son {{hyopen? 'active' : ''}}" bindtap="listqy" data-nav="1">
+      <view class="content">{{dropDownMenuTitle[0]}}</view>
+      <view class="icon"></view>
+    </view>
+    <view class="nav-son borders {{sqopen? 'active' : ''}}" bindtap="list" data-nav="2">
+      <view class="content">{{dropDownMenuTitle[1]}}</view>
+      <view class="icon"></view>
+    </view>
+    <view class="nav-son borders-right {{pxopen? 'active' : ''}}" bindtap="listpx" data-nav="3">
+      <view class="content">{{dropDownMenuTitle[2]}}</view>
+      <view class="icon"></view>
+    </view>
+   
+  </view>
+
+
+
+
+
+  <view class="temp temp3 {{sqopen ? 'show' : 'disappear'}} ">
+    <view class='tempheight'>
+      <view>
+        <block wx:for="{{dropDownMenuSecondData}}" wx:key="unique">
+          <view class="sortitem {{selectedSq==item.id ? ' active ' : ' '}}" data-model='{{item}}' bindtap='selectsqitem'> {{item.title}}</view>
+        </block>
+      </view>
+    </view>
+  </view>
+  <view class="temp temp3 {{pxopen ? 'show' : 'disappear'}} ">
+    <view class='tempheight'>
+      <view>
+        <block wx:for="{{dropDownMenuThirdData}}" wx:key="unique">
+          <view class="sortitem {{selectedQt==item.id ? ' active ' : ' '}}" data-model='{{item}}' bindtap='selecqtlitem'> {{item.title}}</view>
+        </block>
+      </view>
+    </view>
+  </view>
+  <view class="temp temp3 {{sortopen ? 'show' : 'disappear'}} ">
+    <view class='tempheight'>
+      <view>
+        <block wx:for="{{dropDownMenuFourthData}}" wx:key="unique">
+          <view class="sortitem {{selectedSort==item.id ? ' active ' : ' '}}" data-model='{{item}}' bindtap='selecsortlitem'> {{item.title}}</view>
+        </block>
+      </view>
+    </view>
+  </view>

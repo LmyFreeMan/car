@@ -1,0 +1,109 @@
+<view class="contain" >
+    <view class="head" >
+    <van-toast id="van-toast" />
+        <view class="left" bindtap="return"><van-icon name="arrow-left" /></view>
+        <view class="middle">贷款额度评估</view>  
+        <view class="right" bindtap='call'><van-icon name="phone" /></view>
+    </view>
+
+    <view class="provice" >
+        请填写以下基本资料,通过后可购买意向机型
+    </view>
+     <view class="" >
+        <van-cell-group>
+  <van-field
+    value="{{ username }}"
+    required
+ 
+    label="真实姓名"
+ 
+    placeholder="请输入购车人的真实姓名"
+    bind:input="username"
+  />
+  <van-field
+    value="{{idcard}}"
+    required
+  type="number"
+    label="身份证号"
+    placeholder="请输入十八位身份证号码"
+    bind:input="idcard"
+  />
+</van-cell-group>
+    </view>  
+<view class="dark">
+    
+</view>
+  
+         <view class="" >
+        <van-cell-group>
+  <van-field
+    value="{{post}}"
+    required
+  type="number"
+    label="银行卡号"
+
+    placeholder="请设置常用储蓄卡"
+    bind:input="post"
+  />
+  <van-field
+    value="{{phone}}"
+    required
+
+    label="手机号"
+  type="number"
+    placeholder="银行预留手机号"
+    bind:input="phone"
+  />
+   <van-field
+    value="{{ sms }}"
+    required
+    center
+    clearable
+    label="短信验证码"
+    placeholder="请输入短信验证码"
+    border="{{ false }}"
+    use-button-slot
+     bind:input="sms"
+  >
+    <van-button slot="button" size="small" type="primary" bindtap="send">{{index}}</van-button>
+  </van-field>
+ 
+</van-cell-group>
+    </view> 
+    <view class="dark" >
+    </view>
+    <view style="margin-top:10px;">
+    <text class="text">个人税收居民身份声明</text>
+    <view class="radio" >
+          <van-radio-group value="{{radio1}}" data-key="radio1" bind:change="onChange" >
+ 
+      <van-radio name="1" >
+      仅为中国税收居民(具体说明请点击<span style=" color: dodgerblue">查看</span>)
+    </van-radio>
+     <van-radio name="2" checked >仅为非居民</van-radio>
+      <van-radio name="3">以上两者都满足</van-radio>
+
+    
+</van-radio-group>
+    </view>
+    </view>
+     
+        
+  <view class="bottom" >
+         <checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}" />
+    我已同意相关条款
+  </label>
+</checkbox-group> 
+  </view>
+<view style='margin-top:50px;width:60%;margin-left:20%'><van-button round type="warning"  bind:click="go" size="large" >登陆</van-button></view>
+
+
+
+
+
+
+
+
+</view>

@@ -1,0 +1,10 @@
+---------------------------------------------------------------
+[ 2019-06-12T13:21:48+08:00 ] 223.166.222.110 GET www.gxfwz36524.com/car/public/index.php/api/index/byid?id=22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000692s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001089s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  `id` = 22 [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[ 2019-06-12T13:21:49+08:00 ] 223.166.222.110 GET www.gxfwz36524.com/car/public/index.php/api/index/byid?id=22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000617s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  `id` = 22 [ RunTime:0.000376s ]

@@ -1,0 +1,8 @@
+
+<view id="{{items[index].id}}" wx:for="{{items}}" class="card" bindtap="onItemClick">
+        <view >
+            <image class="image" mode="scaleToFill" src="https://www.gxfwz36524.com/car/public/{{items[index].titleimage}}"/>
+            <text class="time">赞数:{{items[index].zanshu}}</text>
+            <view class="title">{{items[index].title}}</view>
+        </view>
+    </view>

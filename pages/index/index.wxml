@@ -1,0 +1,271 @@
+
+<view class='contain' style="width:{{clientWidth}};height:{{clientHeight}}" >
+
+<!-- 头部 -->
+
+<view class='head'>
+   <view style='margin-top:10px'><image class='imglogo' src='https://www.gxfwz36524.com/car/public/logocar.png'></image></view>
+    <view style='margin-top:20px;margin-left:10px;font-size:15px;color:darkgray'><text>快速把车开回家</text></view>
+  <view class="p" bindtap="call">
+  <van-icon name="phone" info="热"  size="30px"/>
+  <span class="number">66669237</span></view>
+</view>
+<van-toast id="van-toast" />
+
+      <view class="image" style="display:{{showimg}};position:fixed">
+           <view class="imgpic"> <image   src="https://www.gxfwz36524.com/car/public/hb.png"  />
+           <view> <button class='btn' bindtap="ling"><text style="font-size:18px;" >领</text></button></view>
+            <view class="quit" bindtap="quit"><text style="color:yellow;font-size:15px;" > 取消</text> </view>   
+           </view>  
+      </view>
+
+<van-popup custom-class="pop" show="{{ show }}" close-on-click-overlay:false>
+
+
+   <van-field
+    value="{{phone}}"
+    required
+ 
+     clearable
+   type="number"
+    label="手机号"
+
+    placeholder="请输入手机号"
+    bind:input="phone"
+  />
+   <van-field
+    value="{{sms}}"
+    required
+
+    clearable
+     type="number"
+    label="短信验证码"
+    placeholder="请输入验证码"
+    border="true"
+    use-button-slot
+     bind:input="sms"
+     >
+      <van-button disabled="{{flag}}" slot="button" size="small" type="primary" bind:click="send" >{{index}}</van-button>
+ 
+  </van-field>
+
+<view style="text-align:center" ><van-button  round type="danger" bind:click="confirm" >确定</van-button></view>
+
+</van-popup>
+
+<van-notify id="custom-selector" />
+<van-dialog id="van-dialog" />
+<!-- 搜索 -->
+<view class='search'>
+
+ <view class='left'>
+<!-- 选择器待完善 -->
+<view style='margin-top:10px;' bindtap='change' >搜索:</view>
+ </view>
+ <view class='middle'>
+ 
+<input placeholder='长安 首付5000起' name="text" bindinput="detail"/>
+ <icon  type="search" size="20"  />
+ </view>
+ <view class='right'>
+ <i class="iconfont icon-go1" bindtap="go" style="font-size:40px"/>
+ </view>
+</view>
+<!-- banner图 -->
+
+<view class='banner'>
+<swiper class="show" autoplay="true" >
+ <block wx:for="{{imgUrls}}" >
+    <swiper-item>
+      <image src="https://www.gxfwz36524.com/car/public{{item.smallimage}}" mode='widthFix' style='width:50%;margin-top:-100px' />
+    </swiper-item>
+  </block>
+
+</swiper>
+</view>
+<view class='describe'>
+<view class="ad">
+<view style="width:22%;" >
+  <i class="iconfont icon-dian"/><text>首付1元起</text>
+</view >
+<view style="margin-left:10px">
+   <i class="iconfont icon-dian"/><text>品牌车源品质保障</text>
+</view>
+<view style="margin-left:10px"  >
+  <i class="iconfont icon-dian"/><text>快速审批极速提车</text>
+</view>
+</view>
+</view>
+<view class='dark' >
+</view>
+<!-- 筛选条件 -->
+<view class='maintext'>
+<view style='width:30%'>
+<view bindtap="loan"><text class='iconfont icon-daikuanshenqing'style="color:orange;font-size:30px" /></view><text style='font-size:15px;'>我要贷款</text>
+</view>
+<view style='width:30%'>
+<view bindtap="kexia"><text class='iconfont icon-jujiaoruanwenguanli' style="color:orange;font-size:30px"/></view><text style='font-size:15px;'>课下门户</text>
+</view>
+<view style='width:30%;'>
+<view bindtap="che" style="margin-left: -5px;"><text class='iconfont icon-che' style="color:orange;font-size:30px"/></view><text style='margin-left:-12px;font-size:15px;'>全部车型</text>
+</view>
+</view>
+<view class='main'>
+<view class='detail' style='margin-left:20px' >
+<view class="list"  wx:for="{{price}}" id="{{price[index]}}" bindtap="price">
+<view wx:if="{{index==0}}" style='text-align:center' id="{{price[index]}}">{{price[index]}}</view>
+<view wx:else style='text-align:center' id="{{price[index]}}">{{price[index]}}</view>
+</view>
+</view>
+<view class='detail' style='margin-left:20px'>
+<view class="list" wx:for="{{monthprice}}"  id="{{monthprice[index]}}" bindtap="monthprice">
+<view wx:if="{{index==0}}" style='text-align:center' id="{{monthprice[index]}}">{{monthprice[index]}}</view>
+<view wx:else style='text-align:center' id="{{monthprice[index]}}">{{monthprice[index]}}</view>
+</view>
+</view>
+
+<!-- 品牌一 -->
+<view class='detail'>
+<view class="list" data-type="richan"  bindtap="bytype"><i class="iconfont icon-dazhong" style="font-size:16px"/><text  style="font-size:15px">大众</text></view>
+<view class="list"  data-type="richan"  bindtap="bytype"><i class="iconfont icon-changanjiaoche" style="font-size:16px"/><text  style="font-size:15px">长安</text></view>
+<view class="list" data-type="richan"  bindtap="bytype"><i class="iconfont icon-dongfengrichan" style="font-size:16px"/><text  style="font-size:15px">日产</text></view>
+<view class="list" data-type="xuefolan"  bindtap="bytype"  ><i class="iconfont icon-xuefolan" style="font-size:16px;color:rgb(255,215,0)"/><text style="font-size:15px"> 雪佛兰</text></view>
+
+<!-- <view class="list" data-type="dazhong"  bindtap="bytype" ><i class="iconfont icon-dazhong" style="font-size:22px;color:rgb(0,0,139);"/><text style="font-size:15px">大众</text></view>
+<view class="list" data-type="changan"  bindtap="bytype"> <i class="iconfont icon-changanjiaoche" style="font-size:22px;color:darkblue"/><text style="font-size:15px;">长安</text></view> -->
+</view>
+
+<!-- 品牌二 -->
+<view class='detail'>
+<view class="list" data-type="bieke"  bindtap="bytype" ><i class="iconfont icon-bieke" style="font-size:13px"/><text  style="font-size:15px"> 别克</text></view>
+<view class="list" data-type="biyadi"  bindtap="bytype"><i class="iconfont icon-biyadi" style="font-size:16px;color:red"/><text style="font-size:15px">比亚迪</text></view>
+<view class="list" data-type="bentian"  bindtap="bytype"><i class="iconfont icon-bentian" style="font-size:16px;"/><text style="font-size:15px">本田</text></view>
+<view class="list"data-type="rongwei"  bindtap="bytype"> <i class="iconfont icon-rongwei" style="font-size:16px;"/><text style="font-size:15px;">荣威</text></view>
+</view>
+
+</view>
+
+<view class='dark' style="margin-top: 15px;">
+</view>
+<view class='block'>
+<view class='block_1' bindtap='gohome'>
+<image src='https://www.gxfwz36524.com/car/public{{changeindex[0].firstimage}}' style='width:90%;height:90%'></image>
+<view style="margin-left:20%;color: #F22F08;font-family: 华文行楷">{{changeindex[0].frist}}</view></view>
+<view class='block_1' style='margin-left:30px' bindtap='gohome'>
+<image src='https://www.gxfwz36524.com/car/public{{changeindex[0].secondimage}}' style='width:90%;height:90%'></image>
+<view style="margin-left:20%;color: #F22F08;font-family: 华文行楷">{{changeindex[0].second}}</view></view>
+<view class='block_1' bindtap='gohome'>
+<image src='https://www.gxfwz36524.com/car/public{{changeindex[0].thirdimage}}' style='width:90%;height:90%'></image>
+<view style="margin-left:20%;color: #F22F08;font-family: 华文行楷">{{changeindex[0].third}}</view>
+</view>
+<view class='block_1' style='margin-left:30px' bindtap='gohome'>
+<image src='https://www.gxfwz36524.com/car/public{{changeindex[0].fouthimage}}' style='width:90%;height:90%'></image>
+<view style="margin-left:20%;color: #F22F08;font-family: 华文行楷">{{changeindex[0].fourth}}</view></view>
+</view>
+<view class='dark' >
+</view>
+
+
+<view class='block2'>
+<!-- block2_title -->
+<view class='block2_title' bindtap="gohome">
+<view class='block2_title_text1'>{{changeindex[0].banner1_top}}</view>
+<view class='block2_title_text2'>更多></view>
+<view class='block2_title_text3'>{{changeindex[0].banner1_bottom}}</view>
+</view>
+<view class='block2_item'>
+
+<view class='item' wx:for="{{orderbynumber}}" id="{{item.id}}" wx:if="{{index<6}}"  bindtap="byid">
+<view   class='block2_item_img'><image src='https://www.gxfwz36524.com/car/public/SUV.jpg'  style='width:80%;height:80%'></image></view>
+<view class='fristprice' >首付{{item.firstprice}}元</view>
+<view class='monthprice'>月供{{item.monthprice}}元</view>
+<view class='price'>{{item.name}}</view>
+</view>
+</view>
+
+
+
+<view class='block2' style='margin-top:80px;'>
+<!-- block2_title -->
+<view class='block2_title' style='  background: orange' bindtap='yuegong'>
+<view class='block2_title_text1'>超低月薪 月供{{changeindex[0].monthprice}}元起</view>
+<view class='block2_title_text2'>更多></view>
+<view class='block2_title_text3'>退款无忧</view>
+</view>
+<view class='block2_item' >
+
+<view class='item' wx:for="{{orderbyprice}}" id="{{item.id}}" wx:if="{{index<6}}" bindtap="byid">
+<view class='block2_item_img'><image src='https://www.gxfwz36524.com/car/public/SUV.jpg'  style='width:80%;height:80%'></image></view>
+<view class='fristprice'>首付{{item.firstprice}}元</view>
+<view class='monthprice'>月供{{item.monthprice}}元</view>
+<view class='price'>{{item.name}}</view>
+</view>
+</view>
+
+</view>
+
+
+<view class='block2' style='margin-top:170px;'>
+<!-- block2_title -->
+<view class='block2_title' style='  background: orange' bindtap='shoufu1'>
+<view class='block2_title_text1'>代步首选 首付{{changeindex[0].fristprice}}内</view>
+<view class='block2_title_text2'>更多></view>
+<view class='block2_title_text3'>超经济新车提前开</view>
+</view>
+<view class='block2_item'>
+<view class='item' wx:for="{{orderbyfirstprice}}" id="{{item.id}}" wx:if="{{index<6}}" bindtap="byid">
+<view class='block2_item_img'><image src='https://www.gxfwz36524.com/car/public/SUV.jpg'  style='width:80%;height:80%'></image></view>
+<view class='fristprice'>首付{{item.firstprice}}元</view>
+<view class='monthprice'>月供{{item.monthprice}}元</view>
+<view class='price'>{{item.name}}</view>
+</view>
+</view>
+</view>
+
+
+
+
+
+<view class='block2' style='margin-top:170px;' wx:for="{{index<6}}">
+<!-- block2_title -->
+<view class='block2_title' style='  background: blue' bindtap='firstprice19'>
+<view class='block2_title_text1'>畅销SUV 月销1977起</view>
+<view class='block2_title_text2'>更多></view>
+<view class='block2_title_text3'>长途旅行说走就走</view>
+</view>
+<view class='block2_item'>
+<view class='item' wx:for="{{orderbynumber}}" id="{{item.id}}" bindtap="byid">
+<view class='block2_item_img'><image src='https://www.gxfwz36524.com/car/public/SUV.jpg'  style='width:80%;height:80%'></image></view>
+<view class='fristprice'>首付{{item.firstprice}}元</view>
+<view class='monthprice'>月供{{item.monthprice}}元</view>
+<view class='price'>{{item.name}}</view>
+</view>
+</view>
+</view>
+
+
+
+
+
+
+
+<view class='block2' style='margin-top:160px; wx:if="{{index<9}}"'>
+<!-- block2_title -->
+<view class='block2_title' style='  background: orange' bindtap='gohome'>
+<view class='block2_title_text1'>銷量最多</view>
+<view class='block2_title_text2'>更多></view>
+<view class='block2_title_text3'>退款无忧</view>
+</view>
+<view class='block2_item'>
+<view class='item' wx:for="{{orderbynumber}}" id="{{item.id}}" bindtap="byid">
+<view class='block2_item_img'><image src='https://www.gxfwz36524.com/car/public/SUV.jpg'  style='width:80%;height:80%'></image></view>
+<view class='fristprice' >首付{{item.firstprice}}元</view>
+<view class='monthprice'>月供{{item.monthprice}}元</view>
+<view class='price'>{{item.name}}</view>
+</view>
+</view>
+</view>
+
+</view>
+
+</view>

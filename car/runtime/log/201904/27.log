@@ -1,0 +1,51 @@
+---------------------------------------------------------------
+[ 2019-04-27T11:18:28+08:00 ] 101.91.60.103 GET www.gxfwz36524.com/car/public/index.php/api/index/byid?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000637s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001055s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  `id` = 3 [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[ 2019-04-27T11:18:29+08:00 ] 101.91.60.103 GET www.gxfwz36524.com/car/public/index.php/api/index/addbookuser?id=3&phone=null&openid=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000628s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001217s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bookuser` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT * FROM `bookuser` WHERE  `name` = '本田1'  AND `tel` IS NULL [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT * FROM `owneruser` WHERE  `openid` = '' LIMIT 1 [ RunTime:0.000419s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tel' cannot be null
+---------------------------------------------------------------
+[ 2019-04-27T11:18:51+08:00 ] 101.91.60.114 GET www.gxfwz36524.com/car/public/index.php/api/index/changeindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000601s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `frist` [ RunTime:0.001038s ]
+[ sql ] [ SQL ] SELECT * FROM `frist` [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2019-04-27T11:18:51+08:00 ] 101.91.60.114 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000627s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC,`allprice` DESC [ RunTime:0.000522s ]
+---------------------------------------------------------------
+[ 2019-04-27T11:18:52+08:00 ] 101.91.60.114 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice?firstprice=10000
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000634s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001078s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000495s ]
+---------------------------------------------------------------
+[ 2019-04-27T11:18:52+08:00 ] 101.91.60.114 POST www.gxfwz36524.com/car/public/index.php/api/index/getaccesstoken
+[ error ] [8]未定义数组索引: code
+---------------------------------------------------------------
+[ 2019-04-27T11:18:52+08:00 ] 101.91.60.114 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000625s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2019-04-27T11:18:53+08:00 ] 101.91.60.114 GET www.gxfwz36524.com/car/public/index.php/api/index/byid?id=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000620s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  `id` = 3 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2019-04-27T11:18:53+08:00 ] 101.91.60.114 POST www.gxfwz36524.com/car/public/index.php/api/index/exitopenid
+[ error ] [8]未定义数组索引: openid
+---------------------------------------------------------------
+[ 2019-04-27T11:18:58+08:00 ] 101.91.60.114 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=1308
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000621s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001085s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000447s ]

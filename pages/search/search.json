@@ -1,0 +1,9 @@
+
+{
+ "usingComponents": {
+  "van-card": "/dist/card/index"
+ 
+},
+"navigationBarTitleText": "速享车-快速把车开回家"
+}
+

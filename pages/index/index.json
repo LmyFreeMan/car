@@ -1,0 +1,23 @@
+{
+  "usingComponents": {
+    "van-loading": "/dist/loading/index",
+    "van-nav-bar": "/dist/nav-bar/index",
+     "van-icon": "/dist/icon/index",
+      "van-search": "/dist/search/index",
+      "van-picker": "/dist/picker/index",
+        "van-area": "/dist/area/index",
+        "van-dialog": "/dist/dialog/index",
+        "van-popup": "/dist/popup/index",
+        "van-button": "/dist/button/index",
+        "van-field": "/dist/field/index",
+        "van-transition": "/dist/transition/index",
+        "van-notify": "/dist/notify/index",
+        "van-toast": "/dist/toast/index"
+        
+  },
+
+    "navigationBarTitleText": "速享车-快速把车开回家"
+
+    
+
+}

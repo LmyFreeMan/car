@@ -1,0 +1,185 @@
+---------------------------------------------------------------
+[ 2019-05-20T15:08:15+08:00 ] 101.91.60.22 GET www.gxfwz36524.com/car/public/index.php/api/index/byid?id=20
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001039s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  `id` = 20 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2019-05-20T15:08:15+08:00 ] 101.91.60.22 GET www.gxfwz36524.com/car/public/index.php/api/index/byid?id=20
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  `id` = 20 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:20:48+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003268s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC,`allprice` DESC [ RunTime:0.001420s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:20:48+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002616s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001845s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:20:49+08:00 ] 106.114.137.230 POST www.gxfwz36524.com/car/public/index.php/api/index/exitopenid
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000634s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT * FROM `owneruser` WHERE  `openid` = 'oisAc5N4hlhpLTrDiXCbt50SImxw' [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:20:53+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/changeindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `frist` [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SELECT * FROM `frist` [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:20:55+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=1308
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001045s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001592s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000663s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:20:55+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice?firstprice=10000
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000795s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001378s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000652s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:21:33+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.000473s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:21:33+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/changeindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000680s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `frist` [ RunTime:0.001075s ]
+[ sql ] [ SQL ] SELECT * FROM `frist` [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:21:33+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000647s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC,`allprice` DESC [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:21:34+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=1308
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001117s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000511s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:21:34+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice?firstprice=10000
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000674s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000503s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:21:34+08:00 ] 106.114.137.230 POST www.gxfwz36524.com/car/public/index.php/api/index/exitopenid
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000637s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SELECT * FROM `owneruser` WHERE  `openid` = 'oisAc5N4hlhpLTrDiXCbt50SImxw' [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:21:43+08:00 ] 106.114.137.230 POST www.gxfwz36524.com/car/public/index.php/api/index/adduser
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000622s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.001058s ]
+[ sql ] [ SQL ] INSERT INTO `owneruser` (`openid` , `phone` , `city` , `createtime`) VALUES ('oisAc5N4hlhpLTrDiXCbt50SImxw' , '13643311329' , '晋州市人民检察院(迎宾大道北)' , 1558351303) [ RunTime:0.004147s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:21:55+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000641s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC,`allprice` DESC [ RunTime:0.000452s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:21:55+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/getcarinfo
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000637s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carinfo` [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SELECT * FROM `carinfo` [ RunTime:0.000666s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:22:07+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/byid?id=14
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001039s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  `id` = 14 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:22:31+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/byid?id=14
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001166s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  `id` = 14 [ RunTime:0.000410s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:22:59+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000634s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:22:59+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003729s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC,`allprice` DESC [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:22:59+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/changeindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000576s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `frist` [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SELECT * FROM `frist` [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:22:59+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=1308
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000733s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001078s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000462s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:22:59+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice?firstprice=10000
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001334s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:23:00+08:00 ] 106.114.137.230 POST www.gxfwz36524.com/car/public/index.php/api/index/exitopenid
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT * FROM `owneruser` WHERE  `openid` = 'oisAc5N4hlhpLTrDiXCbt50SImxw' [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:23:04+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/byprice?id=smallprice
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000604s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001076s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  `allprice` < 100000 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:23:12+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/selectlist?allprice=allprice%3C100000&dis=di%3E%3D0&type=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000630s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001105s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  allprice<100000 and di>=0 ) [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:23:18+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/selectlist?allprice=allprice%3C100000&dis=di%3D1&type=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001047s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  allprice<100000 and di=1 ) [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:23:28+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/selectlist?allprice=allprice%3C100000&dis=di%3D1&type=%E5%A5%94%E8%85%BE
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001230s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  allprice<100000 and di=1 and type='benteng' ) [ RunTime:0.000405s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:23:34+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/selectlist?allprice=allprice%3C100000&dis=di%3D1&type=%E5%A5%94%E8%85%BE
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000686s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  allprice<100000 and di=1 and type='benteng' ) [ RunTime:0.000450s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:23:38+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/selectlist?allprice=allprice%3C100000&dis=di%3D1&type=%E5%A5%94%E8%85%BE
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001106s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  allprice<100000 and di=1 and type='benteng' ) [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:23:48+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/changeindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000595s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `frist` [ RunTime:0.001019s ]
+[ sql ] [ SQL ] SELECT * FROM `frist` [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:23:48+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/banner
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003841s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001287s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `switch` = 1 [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:23:48+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/bynumber
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000558s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `number` DESC,`allprice` DESC [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:23:48+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/bymonthprice?id=1308
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000623s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT * FROM `car` WHERE  (  monthprice>1308 ) [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:23:48+08:00 ] 106.114.137.230 GET www.gxfwz36524.com/car/public/index.php/api/index/byfirstprice?firstprice=10000
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000625s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `car` [ RunTime:0.001044s ]
+[ sql ] [ SQL ] SELECT * FROM `car` ORDER BY `firstprice` [ RunTime:0.000473s ]
+---------------------------------------------------------------
+[ 2019-05-20T19:23:48+08:00 ] 106.114.137.230 POST www.gxfwz36524.com/car/public/index.php/api/index/exitopenid
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000622s ] mysql:host=127.0.0.1;dbname=car;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `owneruser` [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT * FROM `owneruser` WHERE  `openid` = 'oisAc5N4hlhpLTrDiXCbt50SImxw' [ RunTime:0.000365s ]
